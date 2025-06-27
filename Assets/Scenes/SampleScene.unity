@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 1122168888}
   - component: {fileID: 1122168892}
   - component: {fileID: 1122168893}
+  - component: {fileID: 1122168894}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -563,6 +564,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1122168894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122168887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70342a3668381ca4b980b11860efa3ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathClip: {fileID: 8300000, guid: 8f50ccf1eb53dea429c2810e497f1388, type: 3}
+  jumpForce: 700
 --- !u!1 &1388109852
 GameObject:
   m_ObjectHideFlags: 0
