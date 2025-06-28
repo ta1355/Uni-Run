@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -327,7 +327,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 37112
+  m_LastInspectedObjectInstanceID: 36756
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -1311,9 +1311,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea900000
-    m_LastClickedID: 37098
-    m_ExpandedIDs: 000000003a900000
+    m_SelectedIDs: a8900000
+    m_LastClickedID: 37032
+    m_ExpandedIDs: 000000003e900000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1342,7 +1342,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003a900000
+    m_ExpandedIDs: 000000003e900000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1368,8 +1368,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: f8900000
-    m_LastClickedInstanceID: 37112
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d0610000c496000046960000ca950000a8900000109100004eb70000beb8000060910000f4930000689400009296000036980000fe9600002a970000dc9f0000e699000032970000009800009097000000000000a2980000b69800000c9c00000e9a000058940000
     m_RenameOverlay:
@@ -1442,7 +1442,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 37112
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -2094,9 +2094,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.6784595, y: 0.20574789, z: 0.0880841}
+    m_Target: {x: -0.93305314, y: 0.3162971, z: 0.08515058}
     speed: 2
-    m_Value: {x: -0.6784595, y: 0.20574789, z: 0.0880841}
+    m_Value: {x: -0.93305314, y: 0.3162971, z: 0.08515058}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2146,9 +2146,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.1916122
+    m_Target: 1.4849657
     speed: 2
-    m_Value: 1.1916122
+    m_Value: 1.4849657
   m_Ortho:
     m_Target: 1
     speed: 2
