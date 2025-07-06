@@ -63,6 +63,8 @@ public class PlayerController : MonoBehaviour
 
         isDead = true;
 
+        GameManager.instance.OnPlayerDead();
+
     }
 
     // 트리거 콜라이터를 가진 장애물과의 출돌을 감지
@@ -71,6 +73,7 @@ public class PlayerController : MonoBehaviour
         if (collision.tag == "Dead" && !isDead)
         {
             // 충돌한 상대방의 태그가 Dead이며 아직 사망하지 않는다면 Die함수 실행시키기
+            Debug.Log("Dead zone triggered!");
             Die();
         }
     }
