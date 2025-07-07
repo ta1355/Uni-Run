@@ -10,18 +10,21 @@ public class Platform : MonoBehaviour
     private void OnEnable()   // onEnable은 컴포넌트가 활성화될 때 마다 매번 다시 실행
     {
         stepped = false;
+        
+        int safeIndex = Random.Range(0, obstacles.Length); // 장애물 중 하나를 안전한 위치로 지정
 
-        // 장애물 수만큼
-        for (int i = 0; i < obstacles.Length; i++){
-
-            // 현재 순번의 장애물을 1/3 확률로 생성
-            if (Random.Range(0, 3) == 0)
+         // 장애물 수만큼
+        for (int i = 0; i < obstacles.Length; i++)
+        {
+            if (i == safeIndex)
             {
-                obstacles[i].SetActive(true);
+                // 선택된 안전 인덱스는 반드시 꺼둠
+                obstacles[i].SetActive(false);
             }
             else
             {
-                obstacles[i].SetActive(false);
+                // 나머지 위치는 30% 확률로 장애물 생성
+                obstacles[i].SetActive(Random.value < 0.3f);
             }
         }
     }
