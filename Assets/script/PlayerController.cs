@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public AudioClip deathClip;
-    public float jumpForce = 700f;
+    public float jumpForce = 450f;
 
     private int jumpCount = 0;
     private bool isGrounded = false;
@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         playerAudio = GetComponent<AudioSource>();
+
+        rigid.gravityScale = 3f;
     }
 
     void Update()
